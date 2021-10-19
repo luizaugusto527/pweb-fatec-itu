@@ -1,0 +1,59 @@
+html,body{
+    scroll-behavior: smooth;
+}
+.container-fluid{
+    padding: 0;
+}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+    max-height: 450px
+}
+
+.carousel-item img{
+    max-height: 550px;
+    object-fit: cover;
+    filter: brightness(50%);
+
+}
+
+ .carousel-caption{
+    top: 30%;
+}
+
+.row img{
+    border-radius: 10px;
+}
+
+.contato{
+    background-color: #f3f3f3;
+}
+
+textarea{
+    resize: none;
+}
+
+.enviar{
+    width: 130px;
+    height: 40px;
+}
+
+footer i{
+    font-size: 19px;
+}
+
+.burger a {
+    text-decoration: none;
+}
+.burger{
+    margin-top: 50px;
+}
+
+.contato h4{
+    margin-top: 50px;
+}

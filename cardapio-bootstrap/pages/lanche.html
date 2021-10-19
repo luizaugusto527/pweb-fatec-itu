@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://kit.fontawesome.com/07b6929b40.js" crossorign="anonymous"></script>
+  <title>Restaurante</title>
+
+</head>
+
+<body>
+  <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4  bg-dark  ">
+    <h5 class="my-0 mr-md-auto font-weight-normal text-white">Restaurante</h5>
+    <nav class="my-2 my-md-0 mr-md-3">
+      <a class="p-2 text-white" href="../index.html">Home</a>
+      <a class="p-2 text-white" href="../index.html#comidas">Produtos</a>
+      <a class="p-2 text-white" href="#contact">Contato</a>
+    </nav>
+  </header>
+  <section class="burger mt-5">
+    <div class="container">
+      <a href="../index.html " title="voltar para página inicial">
+        <i class="fas fa-chevron-left text-dark mt-4"></i>
+        <span class="text-dark ml-1">Voltar</span>
+    </a>
+      <div class="row">
+        <div class="col-md-6 mt-3">
+          <img src="../images/Sandwich.jpeg" class="img-fluid" alt="">
+          <div class="d-flex justify-content-between mt-3">
+            <h5 class="font-weight-bold">Lanche Natural</h5>
+            <h5 class="font-weight-bold">R$ 10,90</h5>
+          </div>
+          <div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit reiciendis nam non quia! Earum eveniet minus.
+              Facilis explicabo natus nihil voluptatem eveniet pariatur</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nome:</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <label for="exampleInputEmail1" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <label for="exampleInputTel" class="form-label">Telefone:</label>
+              <input type="tel" class="form-control" id="exampleInputTel" aria-describedby="emailHelp">
+              <label class="mt-2" for="">Acompanhamentos</label>
+              <hr>
+              <div class="d-flex flex-wrap">
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck1">
+                  <label class="custom-control-label" for="customCheck1">Hamburger Vegan</label>
+                </div>
+                <div class="custom-control custom-checkbox ml-2">
+                  <input type="checkbox" class="custom-control-input" id="bife" name="bife">
+                  <label class="custom-control-label" for="bife">Bife de soja</label>
+                </div>
+                <div class="custom-control custom-checkbox ml-2">
+                  <input type="checkbox" class="custom-control-input" id="milho" name="milho">
+                  <label class="custom-control-label" for="milho">Milho</label>
+                </div>
+                <div class="custom-control custom-checkbox ml-2">
+                  <input type="checkbox" class="custom-control-input" id="ervilha" name="ervilha">
+                  <label class="custom-control-label" for="ervilha">Ervilha</label>
+                </div>
+                <div class="custom-control custom-checkbox ml-2">
+                  <input type="checkbox" class="custom-control-input" id="tomate" name="tomate">
+                  <label class="custom-control-label" for="tomate">Tomate</label>
+                </div>
+              </div>
+            </div>
+            <label for="exampleFormControlSelect1">Forma de Pagamento</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Dinheiro</option>
+              <option>Pix</option>
+              <option>Cartão de crédito</option>
+              <option>Cartão de débito</option>
+            </select>
+            <div class="form-floating">
+              <label for="floatingTextarea">Mensagem:</label>
+              <textarea class="form-control" placeholder="Deixe a sua mensagem aqui" id="floatingTextarea" cols="30"
+                rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger mt-4 mb-3 rounded-pill enviar">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contato" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mt-5">
+          <h4>Envie uma mensagem</h4>
+          <form>
+            <div class="mb-3">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nome:</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <label for="exampleInputEmail1" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-floating">
+              <label for="floatingTextarea">Mensagem:</label>
+              <textarea class="form-control" placeholder="Deixe a sua mensagem aqui" id="floatingTextarea" cols="30"
+                rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger mt-4 mb-3 rounded-pill enviar">Enviar</button>
+          </form>
+        </div>
+        <div class="col-md-6 mt-5">
+          <h4>Faça uma visita</h4>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3664.701103682746!2d-47.29845955004456!3d-23.29030795744755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf5ab7eef671e9%3A0x6ebbd0f0042492f4!2sFatec%20Itu%20-%20Dom%20Amaury%20Castanho!5e0!3m2!1sen!2sbr!4v1634259542649!5m2!1sen!2sbr"
+            width="100%" height="425" style="border:0;" allowfullscreen="" loading="lazy" class="mt-4"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-dark d-flex flex-column justify-content-center align-items-center text-white">
+    <span class="mt-2">Created by Luiz Augusto</span>
+    <div class="social-midia mt-2">
+      <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook text-white"></i></a>
+      <a href="http://instagram.com" target="_blank"><i class="fab fa-instagram text-white ml-1"></i></a>
+      <a href="https://github.com/luizaugusto527" target="_blank"><i class="fab fa-github text-white ml-1"></i></a>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

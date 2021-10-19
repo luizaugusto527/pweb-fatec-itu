@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Exercícios da matéria PWEB da Fatec Itu</title>
+    <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+        select{
+          max-width: 200px;
+          height: 50px;
+        }
+      </style>
+</head>
+
+
+<body>
+
+
+<main>
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Exercícios de Programação web</h1>
+        <p class="lead text-muted">Essa página tem como intuito mostrar os exercícios realizados na materia de programação web no curso de Análise e desenvolvimento de sistemas da Fatec Itu.</p>
+        <p>
+          <a href="#" class="btn btn-dark my-2"><i class="fab fa-github px-2"></i>Ver repositório no github</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center mb-4">
+        <p class="mr-2 mt-3">Filtrar por</p>
+        <select class="custom-select">
+          <option value="tarefa">Tarefas</option>
+          <option value="tarefa extra">Tarefa extra</option>
+          <option value="todos" selected>Todos</option>
+        </select>
+      </div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col task">
+          <div class="card shadow-sm">
+            <img width="100%"  src="img/Tarefa1.jpg" alt="">
+
+            <div class="card-body">
+                <h4>Tarefa 01</h4>
+              <p class="card-text">A tarefa 1 consiste em construir um curriculo do aluno utilizando somente o HTML</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="curriculo-html/curriculum.html"><button type="button" class="btn btn-sm btn-outline-secondary">Site</button></a>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Código</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col task">
+          <div class="card shadow-sm">
+            <img height="160"  src="img/Tarefa2.jpg" alt="">
+
+            <div class="card-body">
+                <h4>Tarefa 02</h4>
+              <p class="card-text">Na tarefa 2 foi realizado o curso de Git e Github na plataforma da Digital Inovation One.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <a href=""><button type="button" class="btn btn-sm btn-outline-secondary">Baixar o certificado</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col task">
+          <div class="card shadow-sm">
+            <img src="img/Tarefa3.jpg" alt="">
+
+            <div class="card-body">
+              <h4> Tarefa 03</h4>
+              <p class="card-text">A tarefa 3 é similar a tarefa 1, construir um curriculo mas nesta tarefa foi utilizado HTML/CSS.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="curriculo/index.html"><button type="button" class="btn btn-sm btn-outline-secondary">Site</button></a>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Código</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mt-4 task">
+          <div class="card shadow-sm">
+            <img src="img/Tarefa4.jpg" alt="">
+
+            <div class="card-body">
+              <h4>Tarefa 04</h4>
+              <p class="card-text">A tarefa 4 consiste em construir um site de um restaurante utilizando HTML/CSS aplicando formulário.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group mb-4">
+                  <a href="restaurante/index.html"><button type="button" class="btn btn-sm btn-outline-secondary">Site</button></a>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Código</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mt-4 task">
+          <div class="card shadow-sm">
+            <img src="img/Tarefa5.jpg" alt="">
+
+            <div class="card-body">
+              <h4>Tarefa 05</h4>
+              <p class="card-text">A tarefa 5 consiste em apilcar os conhecimentos adquiridos em sala de aula resolvendo 4 exercícos de flexbox.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="Exercicio-flexbox/index.html"><button type="button" class="btn btn-sm btn-outline-secondary">Site</button></a>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Código</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mt-4 task">
+          <div class="card shadow-sm">
+            <img src="img/Tarefa6.jpg"  alt="">
+            <div class="card-body">
+              <h4>Tarefa 06</h4>
+              <p class="card-text">A tarefa 6 consiste em refazer a Tarefa 4 aplicando os conhecimentos de bootstrap adquiridos em aula.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                 <a href="cardapio-bootstrap/index.html"><button type="button" class="btn btn-sm btn-outline-secondary">Site</button></a> 
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Código</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mt-4 extra-task">
+          <div class="card shadow-sm">
+            <img src="img/Tarefa-extra2.jpg" alt="">
+            <div class="card-body">
+              <h4>Tarefa extra 1</h4>
+              <p class="card-text">Como atividade extra foi feito um curso de figma no site da <a href="
+                https://www.cursae.com.br/cursos/figma-criando-interfaces-do-zero-ate-o-prototipo-final">cursae</a>.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href=""><button type="button" class="btn btn-sm btn-outline-secondary">Baixar o certificado</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mt-4 extra-task">
+          <div class="card shadow-sm">
+            <img src="img/Tarefa-extra1.jpg" alt="">
+            <div class="card-body">
+              <h4>Tarefa extra 2</h4>
+              <p class="card-text">A tarefa extra 2 consiste em desenvolver um dashboard de vendas utilizando Spring e React.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://luiz-augusto527-dashborad.netlify.app/"><button type="button" class="btn btn-sm btn-outline-secondary">Site</button></a>
+                  <a href=""><button type="button" class="btn btn-sm btn-outline-secondary">Código</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mt-4 extra-task">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="205" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Em breve</text></svg>
+
+            <div class="card-body">
+              <h4>Tarefa extra 3</h4>
+              <p class="card-text mb-5">Essa tarefa está em construção.</p>
+        
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col mt-4 extra-task">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="205" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Em breve</text></svg>
+  
+              <div class="card-body">
+                <h4>Tarefa extra 4</h4>
+                <p class="card-text mb-5">Essa tarefa está em construção.</p>
+          
+              </div>
+            </div>
+          </div>
+        </div>
+     
+  
+      </div>
+    </div>
+  </div>
+
+</main>
+
+
+
+    <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+      
+  </body>
+</html>
