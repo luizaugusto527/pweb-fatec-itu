@@ -1,0 +1,90 @@
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+}
+.container {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-auto-columns: 1fr;
+    gap: 10px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "div1 div1 . ."
+      "div2 div2 div5 div5"
+      "div3 div3 div6 div6";
+  }
+  
+  .div1 { grid-area: div1; }
+  
+  .div2 { grid-area: div2; }
+  
+  .div5 { grid-area: div5; }
+  
+  .div3 { grid-area: div3; }
+  
+  .div6 { grid-area: div6; }
+  
+  
+
+
+  
+  .div1,.div2,.div3,.div6{
+      background-color: #AAAAAA;
+  }
+
+  .div5{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+  }
+
+  .line{
+    max-width: 680px;
+    height: 3px;
+    background-color: black;
+}
+  footer{
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+h3{
+    margin-top: 10px;
+}
+.div1{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+ a{
+    text-decoration: none;
+    color: black;
+    
+}
+.next{
+    position: absolute;
+    right: 0;
+    top: 17px;
+    margin-right: 10px;
+    
+    
+}
+footer i{
+    color: white;
+    font-size: 21px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 10px;
+}
