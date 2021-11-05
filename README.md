@@ -11,7 +11,7 @@ Você pode ter acesso a todas as tarefas clicando <a href="https://luizaugusto52
 ## Acessando uma tarefa específica
 Tarefa    | Descrição | Pages | Repositório
 --------- | ----------|-------|------------
-Tarefa 1 | Curriculum HTML |[Git Pages](https://luizaugusto527.github.io/pweb-fatec-itu/curriculo-html/curriculum.html) | [Repositório](https://github.com/luizaugusto527/pweb-fatec-itu/tree/main/curriculo)
+Tarefa 1 | Curriculum HTML |[Git Pages](https://luizaugusto527.github.io/pweb-fatec-itu/curriculo-html/curriculum.html) | [Repositório](https://github.com/luizaugusto527/pweb-fatec-itu/tree/main/curriculo-html)
 Tarefa 2 | Curso de Git    | [Baixar certificado](#) | -------------
 Tarefa 3 | Curriculum HTML/CSS | [Git Pages](https://luizaugusto527.github.io/pweb-fatec-itu/curriculo/index.html) | [Repositório](https://github.com/luizaugusto527/pweb-fatec-itu/tree/main/curriculo)
 Tarefa 4 | Cardápio restaurante | [Git Pages](https://luizaugusto527.github.io/pweb-fatec-itu/restaurante/index.html) | [Repositório](https://github.com/luizaugusto527/pweb-fatec-itu/tree/main/restaurante) 
