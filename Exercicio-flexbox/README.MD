@@ -8,6 +8,6 @@ Essa tarefa tem o intuito construir
 
 ## Acessando as tarefas
 
-Você pode acessar essa tarefa pelo Git Pages clicando [aqui](https://luizaugusto527.github.io/pweb-fatec-itu/curriculo/index.html)
+Você pode acessar essa tarefa pelo Git Pages clicando [aqui](https://luizaugusto527.github.io/pweb-fatec-itu/Exercicio-flexbox/index.html)
 
 Você também pode acessar todas as tarefas clicando [aqui](https://luizaugusto527.github.io/pweb-fatec-itu/)
