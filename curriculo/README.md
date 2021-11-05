@@ -15,3 +15,7 @@ Nessa página monte o seu currículo com:
 - Lista de cursos realizados.
 - etc....
 - Links de sites do seu interesse.
+
+## Acessando a tarefa
+Você pode acessar essa tarefa clicando [Aqui](https://luizaugusto527.github.io/pweb-fatec-itu/curriculo-html/curriculum.html)
+Você também pode acessar todas as tarefas clicando [Aqui](https://luizaugusto527.github.io/pweb-fatec-itu/)
