@@ -1,5 +1,5 @@
 
-# Tarefa 03 - Curriculum com HTML/CSS
+# Tarefa 01 - Curriculum com HTML/CSS
 
 Essa tarefa tem o intuito de criar uma página de um curriculum
 utilizando os conceitos de HTML e CSS aprendidos em aula
