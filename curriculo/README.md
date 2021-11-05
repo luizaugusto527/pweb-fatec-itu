@@ -18,4 +18,5 @@ Nessa página monte o seu currículo com:
 
 ## Acessando a tarefa
 Você pode acessar essa tarefa clicando [Aqui](https://luizaugusto527.github.io/pweb-fatec-itu/curriculo-html/curriculum.html)
+
 Você também pode acessar todas as tarefas clicando [Aqui](https://luizaugusto527.github.io/pweb-fatec-itu/)
