@@ -1,22 +1,14 @@
 
-# Tarefa 01 - Curriculum com HTML
+# Tarefa 03 - Curriculum com HTML/CSS
 
 Essa tarefa tem o intuito de criar uma página de um curriculum
-utilizando os conceitos de HTML aprendidos em aula
+utilizando os conceitos de HTML e CSS aprendidos em aula
 
-## Resquisitos da tarefa
-Crie uma página html (somente com html. Não é para usar CSS!!!!)
-Nessa página monte o seu currículo com:
-
-- Nome
-- Endereço, telefone, email, redes sociais, etc.
-- Foto
-- Descrição sobre você.
-- Lista de cursos realizados.
-- etc....
-- Links de sites do seu interesse.
+## Enunciado da tarefa
+Baseado no exemplo da aula do dia 17/08, altere a tarefa 01 para incluir css.
+Os estilos aplicados ficarão ao seu critério.
 
 ## Acessando a tarefa
-Você pode acessar essa tarefa clicando [aqui](https://luizaugusto527.github.io/pweb-fatec-itu/curriculo-html/curriculum.html)
+Você pode acessar essa tarefa clicando [aqui](https://luizaugusto527.github.io/pweb-fatec-itu/curriculo/index.html)
 
 Você também pode acessar todas as tarefas clicando [aqui](https://luizaugusto527.github.io/pweb-fatec-itu/)
