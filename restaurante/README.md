@@ -16,3 +16,8 @@ Essa tarefa tem como o objetivo criar uma página de um restaurante com opções
 - A página deverá ter um botão para concluir o pedido.
 - Não precisa tratar questões responsivas nesse projeto!
 
+## Acessando as tarefas
+
+Você pode acessar essa tarefa pelo Git Pages clicando [aqui](https://luizaugusto527.github.io/pweb-fatec-itu/restaurante/index.html)
+
+Você também pode acessar todas as tarefas clicando [aqui](https://luizaugusto527.github.io/pweb-fatec-itu/)
