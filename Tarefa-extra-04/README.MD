@@ -1,4 +1,4 @@
-# Tarefa extra 04 - Curso de flexbox
+# Tarefa extra 04 - Curso de Bootstrap
 
 ## Atividade da matéria de programação web da Fatec Itu
 ### Objetivos 
