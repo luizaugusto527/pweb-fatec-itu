@@ -3,6 +3,7 @@
 ## Atividade da matéria de programação web da Fatec Itu
 ### Objetivos 
 Essa tarefa tem como o objetivo criar um site utilizando os conceitos aprendidos no curso de bootstrap
+
 Obs: o curso está disponivel no Youtube, você pode acessá-lo clicando [aqui](https://www.youtube.com/playlist?list=PLBbHLUbqqCrTwIrdix6kl84m4OPE0JexR)
 
 
